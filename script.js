@@ -69,8 +69,8 @@ class GameOfLive
 		let x = Math.floor(e.clientX - canvas.getBoundingClientRect().left);
 		let y = Math.floor(e.clientY - canvas.getBoundingClientRect().top);
 
-	    let cellX = Math.floor(x / (this.cellSize + 0));
-	    let cellY = Math.floor(y / (this.cellSize + 0));
+		let cellX = Math.floor(x / (this.cellSize + 0));
+		let cellY = Math.floor(y / (this.cellSize + 0));
 
 		if(e.button == 0)
 			this.field[cellY * this.fieldW + cellX] = true;
@@ -178,7 +178,7 @@ class GameOfLive
 			let color = {r: 0, g: 0, b: 0};
 
 			if(this.field[i])
-			{	
+			{
 				if(this.isRun) {color.r = 221, color.g = 221, color.b = 221}
 				else {color.r = 136, color.g = 136, color.b = 136}
 			}
