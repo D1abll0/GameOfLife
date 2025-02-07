@@ -2,15 +2,15 @@
 {
 	margin: 0;
 	padding: 0;
-  overflow: hidden;
+	overflow: hidden;
 }
 
 body
 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #1a1a1a;
-  box-shadow: 0 0 10px #000f; /* Добавляем тень */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #1a1a1a;
+	box-shadow: 0 0 10px #000f;
 }
